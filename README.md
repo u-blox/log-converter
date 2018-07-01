@@ -7,7 +7,7 @@ Before you can build this utility, you must add four files to it from the repo w
 1. `log_enum.h` and `log_enum_app.h`: these will usually be contained in the [log-client](https://github.com/RobMeades/log-client) sub-directory of your application's repo.
 2. `log_strings.h` and `log_strings_app.h`: contained in the same place as (1).
 
-Once you have cloned this repo and copied these files into it, build it on a Windows machine with Microsoft Visual Studio (C++), or on Linux by entering:
+Once you have cloned this repo and copied these files into it, build it on a Windows machine with Microsoft Visual Studio (C++), or build it on Linux by entering:
 
 `sudo make`
 

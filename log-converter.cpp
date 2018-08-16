@@ -68,7 +68,7 @@ static int parse(FILE *pInputFile, bool endianConvert)
         }
         // Create an event string
         pEventString = "UNKNOWN_EVENT";
-        if (entry[1] < sizeof (gLogStrings)/sizeof(gLogStrings[0])) {
+        if (entry[1] < gNumLogStrings) {
             pEventString = gLogStrings[entry[1]];
         }
 

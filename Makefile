@@ -9,8 +9,8 @@ OBJ_DIR = obj
 
 CPP_FILES := $(wildcard $(SRC_DIR)/*.cpp)
 OBJS := $(patsubst $(SRC_DIR)/%.cpp, $(OBJ_DIR)/%.o, $(CPP_FILES))
-CC =  gcc
-CFLAGS = -Wall -pedantic -pedantic-errors -Wno-int-to-pointer-cast -I. -I$(SRC_DIR)
+CC =  g++
+CFLAGS = -Wall -pedantic -pedantic-errors -I. -I$(SRC_DIR)
 LDFLAGS = 
 
 all: $(PROGRAM)
